@@ -17,7 +17,7 @@ body{
 }
 
 .cover{
-    background: linear-gradient(rgba(0,0,0,0.5) , rgba(58, 58, 58, 0.4)) , url(pexels-mikotoraw-3367850.jpg) ; 
+    background: linear-gradient(rgba(0,0,0,0.5) , rgba(58, 58, 58, 0.4)) , url(/img/pexels-mikotoraw-3367850.jpg) ; 
     height: 90vh;
     width: 100%;
     max-width: 100%;
@@ -434,7 +434,7 @@ body{
 
 
 .cover-2{
-    background: linear-gradient(rgba(0,0,0,0.5) , rgba(58, 58, 58, 0.4)) , url(img/pexels-andrea-piacquadio-3807763.jpg) ; 
+    background: linear-gradient(rgba(0,0,0,0.5) , rgba(58, 58, 58, 0.4)) , url(/img/pexels-andrea-piacquadio-3807763.jpg) ; 
     height: 70vh;
     width: 100%;
     max-width: 100%;
@@ -607,7 +607,7 @@ span{
 }
 
 .cover-2{
-    background: linear-gradient(rgba(0,0,0,0.5) , rgba(58, 58, 58, 0.4)) , url(img/pexels-andrea-piacquadio-3807763.jpg) ; 
+    background: linear-gradient(rgba(0,0,0,0.5) , rgba(58, 58, 58, 0.4)) , url(/img/pexels-andrea-piacquadio-3807763.jpg) ; 
     height: 70vh;
     width: 100%;
     max-width: 100%;
@@ -618,7 +618,7 @@ span{
 }
 
 .cover-3{
-    background: linear-gradient(rgba(0,0,0,0.6) , rgba(58, 58, 58, 0.4)) , url(img/pexels-juan-pablo-serrano-arenas-904276.jpg) ; 
+    background: linear-gradient(rgba(0,0,0,0.6) , rgba(58, 58, 58, 0.4)) , url(/img/pexels-juan-pablo-serrano-arenas-904276.jpg) ; 
     height: 60vh;
     width: 100%;
     max-width: 100%;
@@ -829,7 +829,7 @@ span{
 
 
 .cover-4{
-    background: linear-gradient(rgba(0,0,0,0.6) , rgba(58, 58, 58, 0.4)) , url(img/pexels-rodnae-productions-6257543.jpg) ; 
+    background: linear-gradient(rgba(0,0,0,0.6) , rgba(58, 58, 58, 0.4)) , url(/img/pexels-rodnae-productions-6257543.jpg) ; 
     height: 80vh;
     width: 100%;
     max-width: 100%;
@@ -839,32 +839,33 @@ span{
     
 }
 
-#video{
-    width: 500px;
+
+video{
+    width: 400px;
     border-radius: 10px;
     flex: 1;
-    object-fit: cover;
-   max-width: auto;
+   
+  
 }
 
 .inner{
 display: flex;
 justify-content: center;
 align-items: center;
-flex-wrap: wrap;
 text-align: center;
-
+flex: 1;
+flex-wrap:  wrap;
 
 
 }
 .video-container{
-    flex: 1;
+   flex: 1;
     order: 1;
-    width: 500px;
+  
    
 }
 .video-content{
-  width: 600px;
+    flex-basis: 500px;
     flex:1;
     font-size:2rem;
     font-family: 'poppins';
@@ -872,7 +873,8 @@ text-align: center;
     color: #303030;
     padding: .8rem;
     order: 0;
-    margin: auto;
+    
+   
 }
 
 .section{
@@ -881,7 +883,7 @@ text-align: center;
     justify-content: center;
     text-align: center;
    margin: 2rem 1rem;
-    font-size: 1.6rem;
+    font-size: 1.3em;
     text-transform: uppercase;
     font-family:sans-serif;
     letter-spacing: 12px;
@@ -909,14 +911,14 @@ text-align: center;
     h3{
         padding: 1rem;
         font-family: sans-serif;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         text-transform: uppercase;
         color: #071e3d;
     }
     p{
-        font-size: 1.1rem;
+        font-size: 1rem;
         font-family: 'poppins';
-        padding: 2rem;
+        margin: auto;
     }
 
     a{
@@ -1003,7 +1005,7 @@ text-align: center;
       
     }
     input{
-        width: 350px;
+        width: 100%;
         height: 40px;
         border-radius: 15px;
         border: none;
